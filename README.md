@@ -4,28 +4,34 @@
 
 The purpose of this analysis is to examine the success of various schools within a specific school district. A client has requested an analysis of standardized testing grades by specific school, by grade, by school budget, and by school size. The client suspects there are inaccuracies in the test scores for the 9th grade class at Thomas High School and has requested these datapoints be removed from calculations. The following results and summary demonstrate the impact of the removal of the 9th grade class at Thomas High School from the analysis.
 
+### Resources
+- Data Sources: [schools_complete.csv](schools_complete.csv) & [students_complete.csv](students_complete.csv)
+- Software: Python 3.9.12, Visual Source Code 1.68.1
+	    Jupyter Notebooks
+
+
 ### Results:
 
-- District Summary
+##### District Summary
 	- Average Math Score changed from 79 to 78.9
 	- % passing math changed from 75 to 74.8
 	- % passing reading changed from 85.8 to 85.7
 	- % passing both  65.2 to 64.9
-- School Summary
+##### School Summary
 	- Average math 83.42 to 83.35
 	- reading 83.85 to 83.90
 	- % passing math 93.27 to 93.18
 	- % passing reading 97.31 to 97.02
 	- % passing both 90.95 to 90.63
-- Overall Performance Compared to other Schools
+##### Overall Performance Compared to other Schools
 	- No change
-- Scores by Grade
+##### Scores by Grade
 	- After removing the inaccurate 9th grade scores for Thomas High School, the data frames reflecting the standardized test scores by grade no longer have results for the 9th graders at Thomas High School
-- Scores by School Spending
+##### Scores by School Spending
 	- Very minor changes continue – this change only increases the significance of the lower overall success for schools who spend more money
-- Scores by school size
+##### Scores by school size
 	- No impact because data is rounded to whole numbers
-- Scores by school type
+##### Scores by school type
 	- No impact
 
 ### Summary:
